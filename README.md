@@ -6,5 +6,5 @@
 	> npm install
 	> npm start
 	> http://localhost:8080/  
-	> use this backend: https://github.com/mderfler/mock-server-redux-signin
+	> use this backend: https://github.com/mderfler/node-mock-signin
 ```
