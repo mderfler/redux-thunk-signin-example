@@ -44,10 +44,6 @@ export function getProtected() {
           type: GET_PROTECTED,
           payload: response.data.message
         });
-      }).catch(() => {
-        // If request is bad...
-        // - Show an error to the user
-        dispatch(authError('Bad Login Info'));
-      });
+      })
   }
 }
